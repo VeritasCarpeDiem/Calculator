@@ -1,0 +1,13 @@
+C:\Users\jin.kim\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.exe
+C:\Users\jin.kim\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.deps.json
+C:\Users\jin.kim\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.runtimeconfig.json
+C:\Users\jin.kim\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.runtimeconfig.dev.json
+C:\Users\jin.kim\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.dll
+C:\Users\jin.kim\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.pdb
+C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.csprojAssemblyReference.cache
+C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.AssemblyInfoInputs.cache
+C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.AssemblyInfo.cs
+C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.csproj.CoreCompileInputs.cache
+C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.dll
+C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.pdb
+C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.genruntimeconfig.cache
