@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jin.kim\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj": {}
+    "C:\\Users\\Veritas\\source\\repos\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jin.kim\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj": {
+    "C:\\Users\\Veritas\\source\\repos\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jin.kim\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj",
+        "projectUniqueName": "C:\\Users\\Veritas\\source\\repos\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj",
         "projectName": "CalculatorProgram",
-        "projectPath": "C:\\Users\\jin.kim\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj",
-        "packagesPath": "C:\\Users\\jin.kim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jin.kim\\Calculator\\CalculatorProgram\\obj\\",
+        "projectPath": "C:\\Users\\Veritas\\source\\repos\\Calculator\\CalculatorProgram\\CalculatorProgram.csproj",
+        "packagesPath": "C:\\Users\\Veritas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Veritas\\source\\repos\\Calculator\\CalculatorProgram\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jin.kim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Veritas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

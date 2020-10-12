@@ -11,3 +11,16 @@ C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\Calculator
 C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.dll
 C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.pdb
 C:\Users\jin.kim\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.genruntimeconfig.cache
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.exe
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.deps.json
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.runtimeconfig.json
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.runtimeconfig.dev.json
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.dll
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\bin\Debug\netcoreapp3.1\CalculatorProgram.pdb
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.csprojAssemblyReference.cache
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.AssemblyInfoInputs.cache
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.AssemblyInfo.cs
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.csproj.CoreCompileInputs.cache
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.dll
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.pdb
+C:\Users\Veritas\source\repos\Calculator\CalculatorProgram\obj\Debug\netcoreapp3.1\CalculatorProgram.genruntimeconfig.cache

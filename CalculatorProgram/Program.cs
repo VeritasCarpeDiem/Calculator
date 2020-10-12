@@ -12,8 +12,8 @@ namespace CalculatorProgram
         
         public enum OperatorPrecedence
         {
-           multiply = 1, //1
-           divide, //2
+           multiply = 1, 
+           divide, 
            add,
            subtract
         }
@@ -72,7 +72,8 @@ namespace CalculatorProgram
                 switch (output.Peek())
                 {
                     case '+':
-                        nums.Push(output.Dequeue() + output.Dequeue()); 
+                        nums.Push(output.Dequeue() + output.Dequeue());
+                        ;
                         break;
                     case '-':
                         num1 = output.Dequeue();
@@ -85,10 +86,11 @@ namespace CalculatorProgram
                     case '/':
                         num1 = output.Dequeue();
                         num2 = output.Dequeue();
+                        ;
                         nums.Push(num2 / num1);
                         break;
                     default:
-                        nums.Push(output.Dequeue());
+                        nums.Push(char.GetNumericValue(output.Dequeue()));
                         ;
                         break;
                 }
@@ -96,45 +98,15 @@ namespace CalculatorProgram
             }
             return nums.Pop();
         }
-        //static string ShuntingYard(Stack<string> Operators, Queue<int> Output, string[] Expression)
-        //{
-        //    int index = 0;
-
-        //    for (int i = 0; i < Expression.Length; i++)
-
-        //    {
-        //        if(int.TryParse(Expression[index], out int j)) //if its number add it to queue
-        //        {
-        //            Output.Enqueue(int.Parse(Expression[index]));
-        //        }
-        //        if (Expression[index].Equals(Operator.Values)) //if its operator, 
-        //        {
-        //            while (Expression[index].Equals("("))
-        //            {
-        //                Operators.Pop();
-        //            }
-        //            Operators.Push(Expression[index]);
-        //        }
-        //        if(Expression[index].Equals("(")) //if left bracket, push to stack
-        //        {
-        //            Operators.Push(Expression[index]);
-        //        }
-        //        if(Expression[index].Equals(")")) //if right bracket, 
-        //        {
-        //            while(Operators.Peek() != "(")//while there is NOT left bracket on top of stack, 
-        //            {
-        //                Operators.Pop(); //pop operators from stack and add it to queue
-
-        //            }
-
-        //        }
-        //    }
-        //    return Operators.Peek();
-        //}
         static void Main(string[] args)
         {
             char[] expression = { '2', '+', '5', '/', '8' };//{ "2","+","4","/","2" };
-            
+
+            Queue<char> queue = ShuntingYard(expression);
+            foreach (var item in queue)
+            {
+                Console.Write(item +" ");
+            }
             Console.WriteLine(Evaluate(expression));
         }
     }
