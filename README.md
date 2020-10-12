@@ -1,8 +1,9 @@
 # Calculator
 
 - Reversh Polish Notation(RPM) and Shunting Yard Algorithm
-- Based off this link:https://brilliant.org/wiki/shunting-yard-algorithm/
-
+## Resources: 
+- Shunting Yard Algo: https://brilliant.org/wiki/shunting-yard-algorithm/
+- Reverse Polish Notation (RPM): https://www.youtube.com/watch?v=qN8LPIcY6K4
 # DS-13: Write a calculator program that can parse and solve math expressions, such as:
 1. 12 + 6 - 3 / 2 * 8
 2. 12 + 3
