@@ -59,38 +59,38 @@ namespace CalculatorProgram
             return output;
         }
 
-        static public double Evaluate(char[] tokens)
+        static public int Evaluate(char[] tokens)
         {
-            Stack<double> nums = new Stack<double>();
+            Stack<int> nums = new Stack<int>();
             //Stack<string> operators = new Stack<string>();
 
             Queue<char> output = ShuntingYard(tokens);
             ;
-            for (int i = 0; i < output.Count; i++)
+            for (int i = 0; i < tokens.Length; i++)
             {
-                double num1, num2;
+                int num1, num2;
                 switch (output.Peek())
                 {
                     case '+':
-                        nums.Push(output.Dequeue() + output.Dequeue());
+                        nums.Push(nums.Pop() +nums.Pop());
                         ;
                         break;
                     case '-':
-                        num1 = output.Dequeue();
-                        num2 = output.Dequeue();
+                        num1 = nums.Pop();
+                        num2 = nums.Pop();
                         nums.Push(num2 - num1);
                         break;
                     case '*':
-                        nums.Push(output.Dequeue()*output.Dequeue());
+                        nums.Push(nums.Pop()*nums.Pop());
                         break;
                     case '/':
-                        num1 = output.Dequeue();
-                        num2 = output.Dequeue();
+                        num1 = nums.Pop();
+                        num2 = nums.Pop();
                         ;
                         nums.Push(num2 / num1);
                         break;
                     default:
-                        nums.Push(char.GetNumericValue(output.Dequeue()));
+                        nums.Push((int)char.GetNumericValue(output.Dequeue()));
                         ;
                         break;
                 }
@@ -100,13 +100,14 @@ namespace CalculatorProgram
         }
         static void Main(string[] args)
         {
-            char[] expression = { '2', '+', '5', '/', '8' };//{ "2","+","4","/","2" };
+            char[] expression = { '2', '+', '5', '/', '8' };
 
             Queue<char> queue = ShuntingYard(expression);
             foreach (var item in queue)
             {
                 Console.Write(item +" ");
             }
+            Console.WriteLine();
             Console.WriteLine(Evaluate(expression));
         }
     }
