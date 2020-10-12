@@ -74,20 +74,24 @@ namespace CalculatorProgram
                     case '+':
                         nums.Push(nums.Pop() +nums.Pop());
                         ;
+                        output.Dequeue();
                         break;
                     case '-':
                         num1 = nums.Pop();
                         num2 = nums.Pop();
                         nums.Push(num2 - num1);
+                        output.Dequeue();
                         break;
                     case '*':
                         nums.Push(nums.Pop()*nums.Pop());
+                        output.Dequeue();
                         break;
                     case '/':
                         num1 = nums.Pop();
                         num2 = nums.Pop();
                         ;
                         nums.Push(num2 / num1);
+                        output.Dequeue();
                         break;
                     default:
                         nums.Push((int)char.GetNumericValue(output.Dequeue()));
