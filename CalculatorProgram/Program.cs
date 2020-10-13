@@ -18,7 +18,7 @@ namespace CalculatorProgram
            subtract
         }
 
-        static public Queue<char> ShuntingYard(char[] tokens)
+        static public Queue<char> ShuntingYard(string tokens)
         {
             //Stack<int> nums = new Stack<int>();
             Stack<char> operators = new Stack<char>();
@@ -59,7 +59,7 @@ namespace CalculatorProgram
             return output;
         }
 
-        static public int Evaluate(char[] tokens)
+        static public int Evaluate(string tokens)
         {
             Stack<int> nums = new Stack<int>();
             //Stack<string> operators = new Stack<string>();
@@ -104,7 +104,7 @@ namespace CalculatorProgram
         }
         static void Main(string[] args)
         {
-            char[] expression = { '2', '+', '5', '/', '8' };
+            string expression = "2+5/8";
 
             Queue<char> queue = ShuntingYard(expression);
             foreach (var item in queue)
